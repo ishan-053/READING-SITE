@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 
 <head>
   <meta charset="UTF-8">
@@ -44,6 +44,21 @@
 }
 #myCarousel .carousel-indicators [data-bs-target]{
   background-color: black;
+height: 60vh; 
+}
+
+
+@media (min-width: 768px) {
+#myCarousel img {
+height: 75vh; 
+}
+}
+
+
+@media (min-width: 1200px) {
+#myCarousel img {
+height: 100vh;
+}
 }
   </style>
 </head>
